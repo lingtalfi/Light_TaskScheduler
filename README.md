@@ -103,6 +103,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.1.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.1.0 -- 2020-08-14
 
     - update api, now accepts recursive dates

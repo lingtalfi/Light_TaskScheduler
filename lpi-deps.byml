@@ -1,0 +1,13 @@
+1.0.0: 
+    - Ling:Light:0.69.16
+    - Ling:Light_Database:1.14.9
+    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Bat:1.288
+    - Ling:Light_LingStandardService:1.6.1
+
+1.1.0: 
+    - Ling:Light:0.69.16
+    - Ling:Light_Database:1.14.9
+    - Ling:SimplePdoWrapper:1.30.14
+    - Ling:Bat:1.288
+    - Ling:Light_LingStandardService:1.6.1
