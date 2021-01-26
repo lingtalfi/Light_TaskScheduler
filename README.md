@@ -1,6 +1,6 @@
 Light_TaskScheduler
 ===========
-2020-07-27 -> 2020-08-14
+2020-07-27 -> 2021-01-26
 
 
 
@@ -102,6 +102,10 @@ $logger.methods_collection:
 
 History Log
 =============
+
+- 1.1.3 -- 2021-01-26
+
+    - update for new Light_PluginInstaller api
 
 - 1.1.2 -- 2020-12-08
 

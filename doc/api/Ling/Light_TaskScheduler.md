@@ -1,6 +1,6 @@
 Ling/Light_TaskScheduler
 ================
-2020-06-30 --> 2020-12-08
+2020-06-30 --> 2021-01-26
 
 
 
@@ -101,17 +101,20 @@ Table of contents
     - [LightTaskSchedulerApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Api/Generated/LightTaskSchedulerApiFactory/setPdoWrapper.md) &ndash; Sets the pdoWrapper.
     - [LightTaskSchedulerApiFactory::setContainer](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Api/Generated/LightTaskSchedulerApiFactory/setContainer.md) &ndash; Sets the container.
 - [LightTaskSchedulerException](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Exception/LightTaskSchedulerException.md) &ndash; The LightTaskSchedulerException class.
+- [LightTaskSchedulerPluginInstaller](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Light_PluginInstaller/LightTaskSchedulerPluginInstaller.md) &ndash; The LightTaskSchedulerPluginInstaller class.
+    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
+    - LightBasePluginInstaller::getDependencies &ndash; Returns the array of dependencies.
 - [LightTaskSchedulerService](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService.md) &ndash; The LightTaskSchedulerService class.
     - [LightTaskSchedulerService::__construct](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/__construct.md) &ndash; Builds the LightTaskSchedulerService instance.
-    - [LightTaskSchedulerService::setContainer](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/setContainer.md) &ndash; Sets the container.
     - [LightTaskSchedulerService::run](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/run.md) &ndash; This method IS the task manager.
     - [LightTaskSchedulerService::getFactory](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/getFactory.md) &ndash; Returns the factory for this plugin's api.
-    - LightLingStandardService01::setOptions &ndash; Sets the options.
-    - LightLingStandardService01::install &ndash; Installs the plugin in the light application.
-    - LightLingStandardService01::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightLingStandardService01::uninstall &ndash; Uninstalls the plugin.
-    - LightLingStandardService01::getDependencies &ndash; Returns the array of dependencies.
-    - LightLingStandardService01::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
+    - LightLingStandardService02::setContainer &ndash; Sets the container.
+    - LightLingStandardService02::setOptions &ndash; Sets the options.
+    - LightLingStandardService02::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
 
 
 Dependencies
@@ -119,6 +122,7 @@ Dependencies
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
+- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 
