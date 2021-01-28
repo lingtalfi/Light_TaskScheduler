@@ -14,10 +14,13 @@ class LightTaskSchedulerPluginInstaller extends LightBasePluginInstaller
 {
 
 
+    //--------------------------------------------
+    // TableScopeAwareInterface
+    //--------------------------------------------
     /**
-     * @overrides
+     * @implementation
      */
-    protected function registerTableScope(): array
+    public function getTableScope(): array
     {
         return [
             "lts_task_schedule",
