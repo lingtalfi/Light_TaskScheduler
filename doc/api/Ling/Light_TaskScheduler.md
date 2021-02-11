@@ -1,6 +1,6 @@
 Ling/Light_TaskScheduler
 ================
-2020-06-30 --> 2021-01-28
+2020-06-30 --> 2021-02-11
 
 
 
@@ -103,12 +103,12 @@ Table of contents
 - [LightTaskSchedulerException](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Exception/LightTaskSchedulerException.md) &ndash; The LightTaskSchedulerException class.
 - [LightTaskSchedulerPluginInstaller](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Light_PluginInstaller/LightTaskSchedulerPluginInstaller.md) &ndash; The LightTaskSchedulerPluginInstaller class.
     - [LightTaskSchedulerPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Light_PluginInstaller/LightTaskSchedulerPluginInstaller/getTableScope.md) &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
-    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
-    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
-    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
-    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
-    - LightBasePluginInstaller::getDependencies &ndash; Returns the array of dependencies.
+    - LightUserDatabaseBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightUserDatabaseBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightUserDatabaseBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightUserDatabaseBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightUserDatabaseBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
+    - LightUserDatabaseBasePluginInstaller::getDependencies &ndash; Returns the array of dependencies.
 - [LightTaskSchedulerService](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService.md) &ndash; The LightTaskSchedulerService class.
     - [LightTaskSchedulerService::__construct](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/__construct.md) &ndash; Builds the LightTaskSchedulerService instance.
     - [LightTaskSchedulerService::run](https://github.com/lingtalfi/Light_TaskScheduler/blob/master/doc/api/Ling/Light_TaskScheduler/Service/LightTaskSchedulerService/run.md) &ndash; This method IS the task manager.
@@ -123,7 +123,7 @@ Dependencies
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
-- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
+- [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 

@@ -1,6 +1,6 @@
 Light_TaskScheduler
 ===========
-2020-07-27 -> 2021-01-28
+2020-07-27 -> 2021-02-11
 
 
 
@@ -103,6 +103,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.1.5 -- 2021-02-11
+  
+    - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
+  
 - 1.1.4 -- 2021-01-28
 
     - checkpoint commit

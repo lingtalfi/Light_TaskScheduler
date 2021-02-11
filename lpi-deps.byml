@@ -40,3 +40,11 @@
     - Ling:Light_PluginInstaller:2.0.3+
     - Ling:Bat:1.302+
     - Ling:Light_LingStandardService:1.6.4+
+
+1.1.5: 
+    - Ling:Light:0.69.21+
+    - Ling:Light_Database:1.14.11+
+    - Ling:SimplePdoWrapper:1.30.16+
+    - Ling:Light_PluginInstaller:2.0.11+
+    - Ling:Bat:1.303+
+    - Ling:Light_LingStandardService:1.6.5+

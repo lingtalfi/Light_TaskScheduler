@@ -4,13 +4,13 @@
 namespace Ling\Light_TaskScheduler\Light_PluginInstaller;
 
 
-use Ling\Light_PluginInstaller\PluginInstaller\LightBasePluginInstaller;
+use Ling\Light_UserDatabase\Light_PluginInstaller\LightUserDatabaseBasePluginInstaller;
 
 
 /**
  * The LightTaskSchedulerPluginInstaller class.
  */
-class LightTaskSchedulerPluginInstaller extends LightBasePluginInstaller
+class LightTaskSchedulerPluginInstaller extends LightUserDatabaseBasePluginInstaller
 {
 
 
