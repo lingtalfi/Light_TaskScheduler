@@ -103,6 +103,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.1.6 -- 2021-02-19
+
+    - upgrade dependencies
+
 - 1.1.5 -- 2021-02-11
   
     - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
